@@ -14,9 +14,9 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
 $("#roll").click(function(){
-  var randomNum = Math.random()*6;
+  var randomNum = Math.random()*7;
   var roundedNum = Math.floor(randomNum);
-  $(".dice1").text(roundedNum);
+  $(".diceDisplay").text(roundedNum);
   var result= 0;
   if (roundedNum !==1){
     var newScore = (roundedNum+result);

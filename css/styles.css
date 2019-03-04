@@ -1,0 +1,21 @@
+body {
+  background-image: url('../image/dice.jpg');
+  background-repeat: no-repeat;
+  position: fixed;
+  background-size: cover;
+  color : white;
+}
+.row {
+  margin-top: 200px;
+  text-align: center;
+}
+.btn{
+  color: black;
+}
+.gamePage{
+  display :none;
+}
+.player1{
+  border : 40px;
+  border-width: thick;
+}

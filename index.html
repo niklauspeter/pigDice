@@ -9,11 +9,35 @@
   </head>
   <body>
     <div class="container">
-      <h1>Welcome To Pigdice</h1>
+      <div class="startPage">
+      <h1>Welcome To Pig Dice</h1>
         <div class="topnav">
           <a class="active" href="#home">pig Dice</a>
           <a href="#rules">rules of the game </a>
+        </div>
+        <div class="startButton">
+          <button class="btn" id="start">press here to start game</button>
       </div>
+    </div>
+        <div class= "gamePage">
+          <div class="row">
+            <div class= "col-md-6">
+              <div class="player1">
+              <p><span class="diceDisplay"></span></p>
+              <p>PLAYER ONE :<span id="playerOne"></span></p>
+              <p>SCORE :<Span id="score1"></span></p>
+              <button class="btn" id="roll">ROLL</button><button class="btn" id="hold1">HOLD</button>
+            </div>
+          </div>
+            <div class= "col-md-6">
+              <div class="player2">
+              <p><span class="diceDisplay2"></span></p>
+              <p>PLAYER TWO :<span id="playerTwo"></span></p>
+              <p>SCORE :<Span id="score2"></span></p>
+              <button class="btn" id="roll2">ROLL</button><button class="btn" id="hold2">HOLD</button>
+            </div>
+          </div>
+        </div>
     </div>
   </body>
   </html>
