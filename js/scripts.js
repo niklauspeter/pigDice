@@ -19,10 +19,17 @@ $("#roll").click(function(){
   var randomNum = Math.floor((Math.random()*6)+1);
   $(".diceDisplay").text(randomNum);
   if (randomNum== 1){
-    alert("it player 2 turn")
+    alert("it player 2 turn");
   };
   score.push(randomNum);
   $("#score1").text(score);
-
 });
+});
+$(document).ready(function(){
+$("#hold1").click(function(){
+  var sum = score.reduce(function(a,b){
+    return a+ b;}, 0);
+    result1.push(sum);
+    alert(result1);
+  });
 });
