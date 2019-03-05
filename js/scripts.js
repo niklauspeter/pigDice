@@ -1,7 +1,8 @@
 
-
-
-
+var score = [];
+var score2 = [];
+var result1 = [];
+var result2 = [];
 $(document).ready(function(){
   $("#start").click(function(){
     $(".gamePage").toggle();
@@ -10,21 +11,18 @@ $(document).ready(function(){
     var user2 = prompt("enter player two's name!");
     $("#playerOne").text(user1);
     $("#playerTwo").text(user2);
+
   });
 });
 $(document).ready(function(){
 $("#roll").click(function(){
-  var randomNum = Math.random()*7;
-  var roundedNum = Math.floor(randomNum);
-  $(".diceDisplay").text(roundedNum);
-  var result= 0;
-  if (roundedNum !==1){
-    var newScore = (roundedNum+result);
-    $("#score1").text(newScore);
+  var randomNum = Math.floor((Math.random()*6)+1);
+  $(".diceDisplay").text(randomNum);
+  if (randomNum== 1){
+    alert("it player 2 turn")
   };
-  if (roundedNum ==1){
-    alert("you have got a 1, its player 2's turn")
-  };
+  score.push(randomNum);
+  $("#score1").text(score);
 
 });
 });
