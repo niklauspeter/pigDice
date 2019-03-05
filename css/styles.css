@@ -19,3 +19,7 @@ body {
   border : 40px;
   border-width: thick;
 }
+.names{
+  display : none;
+  color : black;
+}
