@@ -9,15 +9,31 @@
   </head>
   <body>
     <div class="container">
-      <div class="startPage">
+
       <h1>Welcome To Pig Dice</h1>
         <div class="topnav">
-          <a class="active" href="#home">pig Dice</a>
-          <a href="#rules">rules of the game </a>
+        <button class="btn" id="rulbtn">rules</button>
+          <button class="btn" id="homebtn">home</button>
+
         </div>
+        <div class ="rules">
+          <h3>HOW TO PLAY</h3>
+          <P>This is a game of dice whereby two players play by rolling dice virtually, getting awarded random scores and trying to get to a final score of 100</p>
+          <h4>The rules include:</h4>
+          <ul>
+          <li>when the player rolls and gets either 2-6, the score is cummulated and added to their total and they continue to roll</li>
+          <li>if a player gets a 1, on rolling, their total in that round reverts to 0 and the gameplay shifts to the next player</li>
+          <li>if a player chooses to hold, the total of that round is added to the final score and the gameplay shifts back to the next player</li>
+          <li> the first player to score 100 or above wins the game</li>
+        <button class="btn" id="backbtn">back</button>
+    </ul>
+        </div>
+
+        <div class="startPage">
         <div class="startButton">
           <button class="btn" id="start">press here to start game</button>
       </div>
+
     </div>
   <div class = "names">
     <div class ="row">
@@ -42,7 +58,8 @@
               <p><span class="diceDisplay"></span></p>
               <p>PLAYER ONE :<span id="playerOne"></span></p>
               <p>SCORE :<Span id="score1"></span></p>
-              <button class="btn" id="roll">ROLL</button><button class="btn" id="hold1">HOLD</button>
+              <button class="btn" id="roll">ROLL</button>
+              <button class="btn" id="hold1">HOLD</button>
             </div>
           </div>
             <div class= "col-md-6">
@@ -50,10 +67,12 @@
               <p><span class="diceDisplay2"></span></p>
               <p>PLAYER TWO :<span id="playerTwo"></span></p>
               <p>SCORE :<Span id="score2"></span></p>
-              <button class="btn" id="roll2">ROLL</button><button class="btn" id="hold2">HOLD</button>
+              <button class="btn" id="roll2">ROLL</button>
+              <button class="btn" id="hold2">HOLD</button>
             </div>
           </div>
         </div>
     </div>
+
   </body>
   </html>
