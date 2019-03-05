@@ -54,9 +54,10 @@ $("#roll").click(function(){
     $(".player1").hide();
     $(".player2").show();
   };
+  if (randomNum !== 1){
   score.push(randomNum);
-  $("#score1").text(score);
-
+  $("#score1").text(score2);
+};
 });
 });
 $(document).ready(function(){
@@ -79,8 +80,10 @@ $("#roll2").click(function(){
     $(".player2").hide();
     $(".player1").show();
   };
+  if (randomNum !== 1){
   score2.push(randomNum);
   $("#score2").text(score2);
+};
 });
 });
 $(document).ready(function(){
