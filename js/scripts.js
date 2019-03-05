@@ -5,10 +5,19 @@ var result1 = [];
 var result2 = [];
 $(document).ready(function(){
   $("#start").click(function(){
-    $(".gamePage").toggle();
+    $(".names").toggle();
     $(".startPage").toggle();
-    var user1 = prompt("enter player one's name!");
-    var user2 = prompt("enter player two's name!");
+
+  });
+});
+    $(document).ready(function(){
+    $("#playerNames").submit(function(event){
+    event.preventDefault();
+    $(".gamePage").toggle();
+    $(".names").toggle();
+    var user1 = $("#player1Name").val();
+    var user2 = $("#player2Name").val();
+    $(".gamePage").show();
     $("#playerOne").text(user1);
     $("#playerTwo").text(user2);
 
