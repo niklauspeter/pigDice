@@ -27,7 +27,13 @@ body {
 }
 .names{
   display : none;
-  color : black;
+
+}
+#player1Name{
+  color: black;
+}
+#player2Name{
+  color: black;
 }
 .startButton{
   margin-top: 30%;
