@@ -12,7 +12,7 @@ The code doesn't currently need a database nor does it depend on any application
 ## Known Bugs
 The system currenly has one bug whereby, if a random number of one is generated, it clears all the users previous scores.i'm working on debugging this.
 ## Technologies Used
-- HTML
+* HTML
 * css
 * javascript
 * jquery
