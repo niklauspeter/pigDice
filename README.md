@@ -1,8 +1,8 @@
 ## Pig Dice game
-#### The application is a simple game of dice intended to engage the user in .other versions of the game currently exist although this one was made originally by the creator.
+#### The application is a simple game of dice intended to engage two competing users. Other versions of the game currently exist, although this one was made originally by the creator.
 #### By **niklauspeter**
 ## Description
-The application allows two users to play the game whereby each takes turns to roll the dice. the program then assigns random numbers ranging from 1-6, simulating the sides of a dice. If any of the player gets a score of one, they are not awarded any marks. if they hold their score, it is added cumulatively to their previous score and shifts to the next player. The game ends when any of the player reaches a score of 100 first and is hence declared the winner.
+The application allows two users to play a game whereby, each takes turns to roll a dice. the program then assigns random numbers ranging from 1-6, simulating the sides of a dice. If any of the player gets a score of one, they are not awarded any marks. if they hold their score, it is added cumulatively to their previous score and shifts to the next player. The game ends when any of the player reaches a score of 100 first and is hence declared the winner.
 ## Setup/Installation Requirements
 * set the webs URL in your browsers or current search engine.
 * once the website is click on the highligted text "press here to star game".
