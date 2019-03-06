@@ -46,6 +46,13 @@ body {
 #homebtn{
   color : red;
 }
+#score1{
+  color: yellow;
+
+}
+#score2{
+  color: yellow;
+}
 #start{
   -webkit-animation: glowing 1500ms infinite;
  -moz-animation: glowing 1500ms infinite;
