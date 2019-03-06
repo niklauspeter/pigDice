@@ -115,7 +115,7 @@ if (randomNum == 1) {
 });
 $(document).ready(function(){
 $("#hold2").click(function(){
-    alert("Your current score is " +result2[result2.length-1]);
+    alert("Your current score is " + " " +result2[result2.length-1]);
     $(".player2").hide();
     $(".player1").show();
   });
