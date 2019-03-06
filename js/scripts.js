@@ -78,7 +78,7 @@ if (randomNum == 1) {
 });
 $(document).ready(function(){
 $("#hold1").click(function(){
-    alert("Your cuurent score is" + result1[result1.length-1]);
+    alert("Your current score is" + " " + result1[result1.length-1]);
     $(".player1").hide();
     $(".player2").show();
   });
