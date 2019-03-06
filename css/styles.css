@@ -47,11 +47,11 @@ body {
   color : red;
 }
 #score1{
-  color: yellow;
+  color: #FFFF00;
 
 }
 #score2{
-  color: yellow;
+  color: #FFFF00;
 }
 #start{
   -webkit-animation: glowing 1500ms infinite;
